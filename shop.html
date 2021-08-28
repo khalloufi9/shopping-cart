@@ -1,0 +1,90 @@
+<head>
+    <title>shopping</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header >
+    <div class="navbar">
+       <nav>
+        <h2>Shopping</h2>
+            <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#News">News</a></li>
+            </ul>  
+        </nav>  
+        </div>
+    </header>
+    <main>
+
+              <div id="grid-container">
+<!--1-->   
+            <div id="div1">
+            <div class="button"><img class="supp" src="https://www.icone-png.com/png/19/18822.png"  alt="supprimer" onclick=functionsupprimer1()></div>
+            <div class="button"><img id="coeur" src="https://m1.quebecormedia.com/emp/emp/download_9_b8815ebe-ce7d-4342-9eee-b9be9623b651_ORIGINAL.jpg?impolicy=crop-resize&x=0&y=0&w=160&h=160&width=925&height=925"  alt="coeur" onclick=functioncoeur()></div>
+            <div class="grid-item"><img class="image"src="https://i.pinimg.com/736x/7d/1a/c2/7d1ac228c645b68592454ac0fdfc2947.jpg"></div>
+            <div class="grid-item1"><price>Prix: 51.99 euro</price></div>
+            <div class="grid-item2">
+                  <a  class="moins" onclick=myfunctionmoin()>-</a>
+                    <input id="text1" type="numeric" value="0" />
+                  <a  class="plus" onclick=myfunctionplus()>+</a>
+            </div>   
+            <div id="grid-itemtotal1" onclick=functiontotal()>Total: </div>
+            </div>
+
+            
+<!--2-->    
+             <div id="div2">
+            <div class="button"><img class="supp" src="https://www.icone-png.com/png/19/18822.png"  alt="supprimer" onclick=functionsupprimer2()></div>
+            <div class="button"><img id="coeur2" src="https://m1.quebecormedia.com/emp/emp/download_9_b8815ebe-ce7d-4342-9eee-b9be9623b651_ORIGINAL.jpg?impolicy=crop-resize&x=0&y=0&w=160&h=160&width=925&height=925"  alt="coeur" onclick=functioncoeur2()></div>
+            <div class="grid-item"><img class="image"src="https://i.pinimg.com/originals/57/b7/a8/57b7a8cb1595f1a7ee40ab3632bb25ff.jpg"></div>
+            <div class="grid-item1"><price>Prix: 54.99 euro</price></div>
+            <div class="grid-item2">
+                  <a class="moins" onclick=myfunctionmoin2()>-</a>
+                    <input id="text2" type="numeric" value="0" />
+                  <a  class="plus" onclick=myfunctionplus2()>+</a>
+            </div>  
+            <div id="grid-itemtotal2">Total:</div>
+            </div>
+            
+    <!--3-->
+    
+    <div id="div3">
+    <div class="button"><img class="supp" src="https://www.icone-png.com/png/19/18822.png"  alt="supprimer" onclick=functionsupprimer3()></div>
+    <div class="button"><img id="coeur3" src="https://m1.quebecormedia.com/emp/emp/download_9_b8815ebe-ce7d-4342-9eee-b9be9623b651_ORIGINAL.jpg?impolicy=crop-resize&x=0&y=0&w=160&h=160&width=925&height=925"  alt="coeur" onclick=functioncoeur3()></div>
+            <div class="grid-item"><img class="image"src="https://i.pinimg.com/originals/c6/4c/45/c64c45a676e143eed707ce89f1873667.jpg"></div>  
+            <div class="grid-item1"><price>prix: 61.50 euro</price></div>
+            <div class="grid-item2">
+                  <a class="moins" onclick=myfunctionmoin3() >-</a>
+                    <input id="text3" type="numeric" value="0" />
+                  <a class="plus" onclick=myfunctionplus3()>+</a>
+            </div>  
+            <div id="grid-itemtotal3">Total:</div>
+            </div>
+            
+  <!--4--> 
+  
+  <div id="div4">
+  <div class="button"><img class="supp" src="https://www.icone-png.com/png/19/18822.png"  alt="supprimer" onclick=functionsupprimer4()></div>
+  <div class="button"><img id="coeur4" src="https://m1.quebecormedia.com/emp/emp/download_9_b8815ebe-ce7d-4342-9eee-b9be9623b651_ORIGINAL.jpg?impolicy=crop-resize&x=0&y=0&w=160&h=160&width=925&height=925"  alt="coeur" onclick=functioncoeur4()></div>
+            <div class="grid-item"><img class="image"src="https://www.labonnepointure.fr/cache/images/product/93ff71053706e46587c3364cdd08218f-img_5391.jpg-137595.jpg"></div> 
+            <div class="grid-item1"><price>prix: 49.99 euro</price></div>
+            <div class="grid-item2">
+                  <a  class="moins" onclick=myfunctionmoin4()>-</a>
+                    <input id="text4" type="numeric" value="0" />
+                  <a class="plus" onclick=myfunctionplus4()>+</a>
+            </div>  
+            <div id="grid-itemtotal4" >Total:</div> 
+          </div>
+          </div>
+
+<div id="totaux">
+  <div id="demo" onclick=functionsomme()>Click here to know the total amount!!!</div>
+  
+</div>
+          
+    </main>
+
+ <script src="script.js"></script>
+  
+</body>

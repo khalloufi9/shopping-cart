@@ -1,0 +1,229 @@
+body
+{
+margin:0;
+padding: 0;
+}
+
+#div1,#div2,#div3,#div4{
+ display: flex;
+
+}
+
+.navbar
+{
+display:flex;
+top: 0;
+width: 1200px;
+padding:30px ;
+justify-content: space-between;
+align-items: center;
+
+}
+nav{
+    display: flex;
+}
+ul
+{
+display:flex;
+justify-content: space-between;
+margin-left: 900px;
+}
+
+
+
+li{
+    margin-left: 50px;
+    list-style-type: none;
+    font-family: Arial,sans-serif;
+    font-size:30px;
+    border:solid;
+    border-color: white;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+header
+{
+background-image:url('https://fac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2FFAC.2Fvar.2Ffemmeactuelle.2Fstorage.2Fimages.2Fbien-etre.2Fbien-dans-ma-tete.2Fshopping-internet-accro-achats-en-ligne-50412.2F14977899-1-fre-FR.2Faccro-au-shopping-en-ligne-.21-c-est-grave-docteur.2Ejpg/750x562/quality/80/crop-from/center/cr/wqkgVGhpbmtzdG9jayAvIEZlbW1lIEFjdHVlbGxl/accro-au-shopping-en-ligne-c-est-grave-docteur.jpeg') ;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 120px;
+position: relative;
+
+}
+
+h2
+{
+font-size: 30px;
+color: white;
+}
+
+/* contenu*/
+
+#grid-container {
+    
+    background-color: #d2dee6;
+    padding:0;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #div1,#div2,#div3,#div4
+  {
+    margin-bottom: 20px;
+  }
+  #div1:hover,#div2:hover,#div3:hover,#div4:hover
+  { margin-bottom: 20px;
+    border: black solid;
+  }
+
+
+  .button{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    background-color:white;
+    height: 140px;
+  }
+  .image{
+    width:310px;
+    height: 190px;
+       }
+
+.supp,#coeur,#coeur2,#coeur3,#coeur4
+{
+width:100px;
+}
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    width:310px;
+    height: 190px;
+    border-radius: 3px;
+    
+  }
+.grid-item1{
+  font-size: 30px;
+  text-align: center;
+  border: 1px solid black;
+  background-color:white;
+  width:310px;
+  height: 100px;
+  padding-top: 90px;
+
+  
+
+}
+.grid-item2{
+  font-size: 30px;
+  text-align: center;
+  border: 1px solid black;
+  background-color:white;
+  width:310px;
+  height: 110px;
+  padding-top: 80px;;
+   
+}
+.grid-item3{
+  font-size: 30px;
+  text-align: center;
+  border: 1px solid black;
+  background-color:white;
+  width:310px;
+  height: 130px;
+  padding-top: 60px;
+   
+}
+ #grid-itemtotal1,#grid-itemtotal2,#grid-itemtotal3,#grid-itemtotal4
+ {
+  font-size: 30px;
+  text-align: center;
+  border: 1px solid black;
+  background-color:white;
+  width:310px;
+  height: 100px;
+  padding-top: 90px;
+  
+   
+ }
+#text1,#text2,#text3,#text4
+{ text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  border: none;
+  height: 30px;
+  border: solid;
+  width: 120px;
+}
+
+.moins
+{
+  border: solid black;
+  border-radius: 30px;
+  font-size: 50px;
+  padding: 2px 10px;
+  font-weight: bold;
+  color:white;
+  background-color:blueviolet;
+  
+}
+.plus
+{  border: solid black;
+  font-size: 40px;
+  color:white;
+  background-color:blueviolet;
+  border-radius: 40px;
+  padding: 7px 10px;
+  font-weight: bold;
+}
+
+.text
+{
+width: 100px;
+height: 30px;
+border: solid black;
+text-align: center;
+color:white;
+  background-color:blueviolet;
+}
+
+.image{
+        width:310px;
+        height: 190px;
+      }
+.supp,#coeur,#coeur2,#coeur3,#coeur4
+{
+width:100px;
+}
+.button{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  border: black;
+  border: 1px solid black;
+  background-color:white;
+  height: 140px;
+}
+
+#totaux
+{
+margin-top: 60px;
+margin-left: 20px;
+margin-right: 20px;
+border: 1px  solid black;
+height: 50px;
+}
+#demo{ 
+  padding-top: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
